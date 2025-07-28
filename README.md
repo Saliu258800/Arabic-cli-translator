@@ -1,6 +1,6 @@
 ## Version
 
 v1.0.0 - Initial release  
-- Translates "the" to Spanish definite articles  
+- Translates English to Spanish  
 - Case-insensitive input  
 - Uses JSON for word mapping
