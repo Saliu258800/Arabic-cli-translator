@@ -25,7 +25,7 @@ def main():
         print("Word not found.")
 
 def get_path(file):
-    return "/storage/emulated/0/Documents/lang/spanish" + file
+    return "./spanish" + file
 
 def load_json(path):
     with open(get_path(path), "r") as f:
