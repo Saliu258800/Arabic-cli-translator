@@ -1,10 +1,10 @@
 import json
 import os
 
-VERSION = "v1.0.0"
+VERSION = "v2.0.0"
 
 def main():
-    print(f"Mini English To Spanish App {VERSION}")
+    print(f"Mini English To Arabic App {VERSION}")
 
     # Load both word groups
     def_article = load_json("/definite_article.json")
@@ -25,10 +25,10 @@ def main():
         print("Word not found.")
 
 def get_path(file):
-    return "./spanish" + file
+    return "./Arabic" + file
 
 def load_json(path):
-    with open(get_path(path), "r") as f:
+    with open(get_path(path), "r", encoding='utf-8') as f:
         return json.load(f)
 
 def get_word():
